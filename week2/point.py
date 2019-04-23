@@ -6,6 +6,9 @@ class Point():
         self.y = int(y)
         Point.points.append(self)
 
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+
     def distance(self, p):
         return ((self.x - p.x)**2 + (self.y - p.y)**2)**0.5
 
@@ -18,4 +21,4 @@ while True:
         new_point = Point(x,y)
         for p in Point.points:
             if p != new_point:
-                print(f"Η απόσταση για το σημείο ({p.x},{p.y}) είναι: {p.distance(new_point)}")
+                print(f"Η απόσταση για το σημείο {p} είναι: {p.distance(new_point)}")
