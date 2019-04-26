@@ -45,7 +45,7 @@ class Deck():
         if len(self.content) < 1 : return f"empty deck"
         drawn_card = self.content[0]
         self.content = self.content[1:]
-        self.pile = self.pile.append(drawn_card)
+        self.pile.append(drawn_card)
         return drawn_card
     def collect(self):
         self.content += self.pile
@@ -59,6 +59,6 @@ class Deck():
             if cnt%13 == 0: s = s+'\n'
         if s[-1] != '\n': s += '\n'
         return s
-    def pile_details(self):
-        for p in Deck.pile:
-            Card.detailed_info(p)
+    def pile_detais(self):
+        print(f"Τα φύλλα στο τραπέζι είναι: ")
+        [print(p.detailed_info()) for p in self.pile]
