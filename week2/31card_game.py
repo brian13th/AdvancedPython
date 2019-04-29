@@ -82,4 +82,5 @@ class Game():
             winners = [x for x in self.players if x.my_score == max_score]
             for player in winners:
                 print(player)
+
 if __name__ == '__main__': Game()
