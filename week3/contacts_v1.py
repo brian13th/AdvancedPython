@@ -28,8 +28,8 @@ class Persistant():
                 reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_ALL)
                 for row in reader:
                     Contact(row[0], row[1])
-                    return True
-        else: return True
+                return True
+        else: return False
 
 class Main():
     """κλάση διαχείρισης επαφών - δημιουργία - διαγραφή"""
