@@ -1,4 +1,4 @@
-import os, random, json
+import os, random, json, jsonpickle
 
 class Contact():
     """κάθε επαφή είναι όνομα και τηλέφωνο"""
@@ -19,13 +19,17 @@ class Persistant():
         self.filename = 'contacts.txt'
     def store(self):
         with open(self.filename, 'w') as f:
-            json.dump(Contact.theContacts, f)
+            data = jsonpickle.encode(Contact.theContacts)
+            json.dump(data, f)
+        # print(list(Contact.theContacts))
     def retrive(self):
         if os.path.isfile(self.filename):
             with open(self.filename, 'rb') as f:
                 Contact.theContacts = json.load(f)
                 return True
         else: return False
+
+
 
 class Main():
     """κλάση διαχείρισης επαφών - δημιουργία - διαγραφή"""
