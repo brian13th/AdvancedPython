@@ -338,25 +338,48 @@ class Main():
         Student.success_rate()
     def question_4(self):
         # TODO ΕΡΩΤΗΜΑ 5. Να παρουσιάσετε την τελική βαθμολογία
-        sum_final, sum_final_last = 0, 0
-        sum_grade, sum_grade_last = 0, 0
-        sum_final_succes, sum_final_succes_last = 0, 0
+        try:
+            conn = lite.connect(self.db)
+            with conn:
+                c = conn.cursor()
+                results = []
+                # sum_final, sum_final_last = 0, 0
+                # sum_grade, sum_grade_last = 0, 0
+                # sum_final_succes, sum_final_succes_last = 0, 0
+                sql1 = 'SELECT COUNT(*) FROM exam_score WHERE exam_id = 4;'
+                sql2 = 'SELECT COUNT(*) FROM exam_score WHERE exam_id = 5;'
+                sql3 = 'SELECT AVG(score) FROM exam_score WHERE exam_id = 4;'
+                sql4 = 'SELECT AVG(score) FROM exam_score WHERE exam_id = 5;'
+                sql5 = 'SELECT count(*) FROM exam_score WHERE exam_id = 4 AND score >= 5;'
+                sql6 = 'SELECT count(*) FROM exam_score WHERE exam_id = 5 AND score >= 5'
+                sql = [sql1,sql2,sql3,sql4,sql5,sql6]
+                for q in sql:
+                    c.execute(q)
+                    results.append(c.fetchone()[0])
+                print(results)
+        except lite.Error as er:
+            print(er)
 
-        for student in Student.order_students_list(Student.students):
-            if student.final_exams_check():
-                sum_final += 1
-                sum_grade += student.exam1
-                if student.exam1 >= 5:
-                    sum_final_succes +=1
-                else:
-                    sum_final_last += 1
-                    sum_grade_last += student.exam2
-                    if student.exam2 >= 5:
-                        sum_final_succes_last +=1
+
+        sum_final, sum_final_last = results[0], results[1]
+        avg_grade, avg_grade_last = results[2], results[3]
+        sum_final_succes, sum_final_succes_last = results[4], results[5]
+
+        # for student in Student.order_students_list(Student.students):
+        #     if student.final_exams_check():
+        #         sum_final += 1
+        #         sum_grade += student.exam1
+        #         if student.exam1 >= 5:
+        #             sum_final_succes +=1
+        #         else:
+        #             sum_final_last += 1
+        #             sum_grade_last += student.exam2
+        #             if student.exam2 >= 5:
+        #                 sum_final_succes_last +=1
         if sum_final is not 0:
-            print(f'Τελική εξέταση [συμμετοχή {sum_final}]: μέση βαθμολογία = { sum_grade/sum_final:.2f}, ποσοστό επιτυχίας = {(sum_final_succes/sum_final)*100:.1f}%')
+            print(f'Τελική εξέταση [συμμετοχή {sum_final}]: μέση βαθμολογία = { avg_grade:.2f}, ποσοστό επιτυχίας = {(sum_final_succes/sum_final)*100:.1f}%')
             if sum_final_last is not 0:
-                print(f'Τελική εξέταση [συμμετοχή {sum_final_last}]: μέση βαθμολογία = {sum_grade_last / sum_final_last:.2f}, ποσοστό επιτυχίας = {( sum_final_succes_last / sum_final_last) * 100:.1f}%')
+                print(f'Τελική εξέταση [συμμετοχή {sum_final_last}]: μέση βαθμολογία = {avg_grade_last:.2f}, ποσοστό επιτυχίας = {( sum_final_succes_last / sum_final_last) * 100:.1f}%')
             elif sum_final_last == 0:
                 print(f'Πέρασαν όλοι το μάθημα από την τελική εξέταση!!')
         elif sum_final == 0:
