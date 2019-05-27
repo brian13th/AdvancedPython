@@ -356,7 +356,7 @@ class Main():
                 for q in sql:
                     c.execute(q)
                     results.append(c.fetchone()[0])
-                print(results)
+                # print(results)
         except lite.Error as er:
             print(er)
 
