@@ -5,5 +5,5 @@ import json
 r = requests.get('https://formulae.brew.sh/api/formula.json')
 packages_json = r.json()
 
-packages_json = json.dumps(packages_json, indent=2)
-print(packages_json[1][0])
+with open('json_response.json', 'w') as f:
+    json.dump(packages_json, f, indent=2)

@@ -1,0 +1,911 @@
+[
+  {
+    "name": "a2ps",
+    "description": "Any-to-PostScript filter",
+    "homepage": "https://www.gnu.org/software/a2ps/",
+    "info": {
+      "installations": 75,
+      "errors": 0
+    }
+  },
+  {
+    "name": "a52dec",
+    "description": "Library for decoding ATSC A/52 streams (AKA 'AC-3')",
+    "homepage": "https://liba52.sourceforge.io/",
+    "info": {
+      "installations": 57,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aacgain",
+    "description": "AAC-supporting version of mp3gain",
+    "homepage": "https://aacgain.altosdesign.com/",
+    "info": {
+      "installations": 40,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aalib",
+    "description": "Portable ASCII art graphics library",
+    "homepage": "https://aa-project.sourceforge.io/aalib/",
+    "info": {
+      "installations": 116,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aamath",
+    "description": "Renders mathematical expressions as ASCII art",
+    "homepage": "http://fuse.superglue.se/aamath/",
+    "info": {
+      "installations": 15,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aardvark_shell_utils",
+    "description": "Utilities to aid shell scripts or command-line users",
+    "homepage": "http://www.laffeycomputer.com/shellutils.html",
+    "info": {
+      "installations": 7,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abcde",
+    "description": "Better CD Encoder",
+    "homepage": "https://abcde.einval.com",
+    "info": {
+      "installations": 68,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abcl",
+    "description": "Armed Bear Common Lisp: a full implementation of Common Lisp",
+    "homepage": "https://abcl.org/",
+    "info": {
+      "installations": 23,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abcm2ps",
+    "description": "ABC music notation software",
+    "homepage": "http://moinejf.free.fr",
+    "info": {
+      "installations": 29,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abcmidi",
+    "description": "Converts abc music notation files to MIDI files",
+    "homepage": "https://ifdo.ca/~seymour/runabc/top.html",
+    "info": {
+      "installations": 94,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abduco",
+    "description": "Provides session management: i.e. separate programs from terminals",
+    "homepage": "http://www.brain-dump.org/projects/abduco",
+    "info": {
+      "installations": 5,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abnfgen",
+    "description": "Quickly generate random documents that match an ABFN grammar",
+    "homepage": "http://www.quut.com/abnfgen/",
+    "info": {
+      "installations": 3,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abook",
+    "description": "Address book with mutt support",
+    "homepage": "https://abook.sourceforge.io/",
+    "info": {
+      "installations": 27,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abuse",
+    "description": "Dark 2D side-scrolling platform game",
+    "homepage": "http://abuse.zoy.org/",
+    "info": {
+      "installations": 26,
+      "errors": 0
+    }
+  },
+  {
+    "name": "abyss",
+    "description": "Genome sequence assembler for short reads",
+    "homepage": "https://www.bcgsc.ca/resources/gsc-software-centre",
+    "info": {
+      "installations": 45,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ace",
+    "description": "ADAPTIVE Communication Environment: OO network programming in C++",
+    "homepage": "https://www.dre.vanderbilt.edu/~schmidt/ACE.html",
+    "info": {
+      "installations": 56,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aces_container",
+    "description": "Reference implementation of SMPTE ST2065-4",
+    "homepage": "https://github.com/ampas/aces_container",
+    "info": {
+      "installations": 26,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ack",
+    "description": "Search tool like grep, but optimized for programmers",
+    "homepage": "https://beyondgrep.com/",
+    "info": {
+      "installations": 10125,
+      "errors": 0
+    }
+  },
+  {
+    "name": "acme",
+    "description": "Crossassembler for multiple environments",
+    "homepage": "https://sourceforge.net/projects/acme-crossass/",
+    "info": {
+      "installations": 1956,
+      "errors": 0
+    }
+  },
+  {
+    "name": "acmetool",
+    "description": "Automatic certificate acquisition tool for ACME (Let's Encrypt)",
+    "homepage": "https://github.com/hlandau/acme",
+    "info": {
+      "installations": 14,
+      "errors": 0
+    }
+  },
+  {
+    "name": "acpica",
+    "description": "OS-independent implementation of the ACPI specification",
+    "homepage": "https://www.acpica.org/",
+    "info": {
+      "installations": 108,
+      "errors": 0
+    }
+  },
+  {
+    "name": "activemq",
+    "description": "Apache ActiveMQ: powerful open source messaging server",
+    "homepage": "https://activemq.apache.org/",
+    "info": {
+      "installations": 1071,
+      "errors": 0
+    }
+  },
+  {
+    "name": "activemq-cpp",
+    "description": "C++ API for message brokers such as Apache ActiveMQ",
+    "homepage": "https://activemq.apache.org/components/cms/",
+    "info": {
+      "installations": 14,
+      "errors": 0
+    }
+  },
+  {
+    "name": "adios2",
+    "description": "Next generation of ADIOS developed in the Exascale Computing Program",
+    "homepage": "https://adios2.readthedocs.io",
+    "info": {
+      "installations": 27,
+      "errors": 0
+    }
+  },
+  {
+    "name": "admesh",
+    "description": "Processes triangulated solid meshes",
+    "homepage": "https://github.com/admesh/admesh",
+    "info": {
+      "installations": 9,
+      "errors": 0
+    }
+  },
+  {
+    "name": "adns",
+    "description": "C/C++ resolver library and DNS resolver utilities",
+    "homepage": "https://www.chiark.greenend.org.uk/~ian/adns/",
+    "info": {
+      "installations": 16657,
+      "errors": 0
+    }
+  },
+  {
+    "name": "adplug",
+    "description": "Free, hardware independent AdLib sound player library",
+    "homepage": "https://adplug.github.io",
+    "info": {
+      "installations": 1,
+      "errors": 0
+    }
+  },
+  {
+    "name": "adr-tools",
+    "description": "CLI tool for working with Architecture Decision Records",
+    "homepage": "https://github.com/npryce/adr-tools",
+    "info": {
+      "installations": 185,
+      "errors": 0
+    }
+  },
+  {
+    "name": "advancecomp",
+    "description": "Recompression utilities for .PNG, .MNG, .ZIP, and .GZ files",
+    "homepage": "https://www.advancemame.it/comp-readme.html",
+    "info": {
+      "installations": 107,
+      "errors": 0
+    }
+  },
+  {
+    "name": "advancemame",
+    "description": "MAME with advanced video support",
+    "homepage": "https://www.advancemame.it/",
+    "info": {
+      "installations": 27,
+      "errors": 0
+    }
+  },
+  {
+    "name": "advancemenu",
+    "description": "Frontend for AdvanceMAME/MESS",
+    "homepage": "https://www.advancemame.it/menu-readme.html",
+    "info": {
+      "installations": 7,
+      "errors": 0
+    }
+  },
+  {
+    "name": "advancescan",
+    "description": "Rom manager for AdvanceMAME/MESS",
+    "homepage": "https://www.advancemame.it/scan-readme.html",
+    "info": {
+      "installations": 4,
+      "errors": 0
+    }
+  },
+  {
+    "name": "adwaita-icon-theme",
+    "description": "Icons for the GNOME project",
+    "homepage": "https://developer.gnome.org",
+    "info": {
+      "installations": 5387,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aescrypt",
+    "description": "Program for encryption/decryption",
+    "homepage": "https://aescrypt.sourceforge.io/",
+    "info": {
+      "installations": 46,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aescrypt-packetizer",
+    "description": "Encrypt and decrypt using 256-bit AES encryption",
+    "homepage": "https://www.aescrypt.com",
+    "info": {
+      "installations": 19,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aespipe",
+    "description": "AES encryption or decryption for pipes",
+    "homepage": "https://loop-aes.sourceforge.io/",
+    "info": {
+      "installations": 20,
+      "errors": 0
+    }
+  },
+  {
+    "name": "afflib",
+    "description": "Advanced Forensic Format",
+    "homepage": "https://github.com/sshock/AFFLIBv3",
+    "info": {
+      "installations": 600,
+      "errors": 0
+    }
+  },
+  {
+    "name": "afio",
+    "description": "Creates cpio-format archives",
+    "homepage": "https://github.com/kholtman/afio",
+    "info": {
+      "installations": 183,
+      "errors": 0
+    }
+  },
+  {
+    "name": "afl-fuzz",
+    "description": "American fuzzy lop: Security-oriented fuzzer",
+    "homepage": "https://github.com/google/AFL",
+    "info": {
+      "installations": 91,
+      "errors": 0
+    }
+  },
+  {
+    "name": "afsctool",
+    "description": "Utility for manipulating HFS+ compressed files",
+    "homepage": "https://brkirch.wordpress.com/afsctool/",
+    "info": {
+      "installations": 88,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aften",
+    "description": "Audio encoder which generates ATSC A/52 compressed audio streams",
+    "homepage": "https://aften.sourceforge.io/",
+    "info": {
+      "installations": 14,
+      "errors": 0
+    }
+  },
+  {
+    "name": "afuse",
+    "description": "Automounting file system implemented in userspace with FUSE",
+    "homepage": "https://github.com/pcarrier/afuse/",
+    "info": {
+      "installations": 10,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agda",
+    "description": "Dependently typed functional programming language",
+    "homepage": "https://wiki.portal.chalmers.se/agda/",
+    "info": {
+      "installations": 114,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agedu",
+    "description": "Unix utility for tracking down wasted disk space",
+    "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/agedu/",
+    "info": {
+      "installations": 26,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aggregate",
+    "description": "Optimizes lists of prefixes to reduce list lengths",
+    "homepage": "https://web.archive.org/web/20160716192438/freecode.com/projects/aggregate/",
+    "info": {
+      "installations": 9,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aha",
+    "description": "ANSI HTML adapter",
+    "homepage": "https://github.com/theZiz/aha",
+    "info": {
+      "installations": 35,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ahcpd",
+    "description": "Autoconfiguration protocol for IPv6 and IPv6/IPv4 networks",
+    "homepage": "https://www.irif.univ-paris-diderot.fr/~jch/software/ahcp/",
+    "info": {
+      "installations": 6,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ahoy",
+    "description": "Creates self documenting CLI programs from commands in YAML files",
+    "homepage": "http://www.ahoycli.com/",
+    "info": {
+      "installations": 38,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aide",
+    "description": "File and directory integrity checker",
+    "homepage": "https://aide.github.io/",
+    "info": {
+      "installations": 9,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aircrack-ng",
+    "description": "Next-generation aircrack with lots of new features",
+    "homepage": "https://aircrack-ng.org/",
+    "info": {
+      "installations": 2865,
+      "errors": 0
+    }
+  },
+  {
+    "name": "airspy",
+    "description": "The usemode driver and associated tools for airspy",
+    "homepage": "https://airspy.com/",
+    "info": {
+      "installations": 118,
+      "errors": 0
+    }
+  },
+  {
+    "name": "akamai",
+    "description": "CLI toolkit for working with Akamai's APIs",
+    "homepage": "https://github.com/akamai/cli",
+    "info": {
+      "installations": 151,
+      "errors": 0
+    }
+  },
+  {
+    "name": "akka",
+    "description": "Toolkit for building concurrent, distributed, and fault tolerant apps",
+    "homepage": "https://github.com/akka/akka",
+    "info": {
+      "installations": 36,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alac",
+    "description": "Basic decoder for Apple Lossless Audio Codec files (ALAC)",
+    "homepage": "https://web.archive.org/web/20150319040222/craz.net/programs/itunes/alac.html",
+    "info": {
+      "installations": 9,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aldo",
+    "description": "Morse code learning tool released under GPL",
+    "homepage": "https://www.nongnu.org/aldo/",
+    "info": {
+      "installations": 6,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alexjs",
+    "description": "Catch insensitive, inconsiderate writing",
+    "homepage": "https://alexjs.com",
+    "info": {
+      "installations": 17,
+      "errors": 0
+    }
+  },
+  {
+    "name": "algernon",
+    "description": "Pure Go web server with Lua, Markdown, HTTP/2 and template support",
+    "homepage": "https://algernon.roboticoverlords.org/",
+    "info": {
+      "installations": 51,
+      "errors": 0
+    }
+  },
+  {
+    "name": "algol68g",
+    "description": "Algol 68 compiler-interpreter",
+    "homepage": "https://jmvdveer.home.xs4all.nl/algol.html",
+    "info": {
+      "installations": 7691,
+      "errors": 0
+    }
+  },
+  {
+    "name": "align",
+    "description": "Text column alignment filter",
+    "homepage": "https://www.cs.indiana.edu/~kinzler/align/",
+    "info": {
+      "installations": 4,
+      "errors": 0
+    }
+  },
+  {
+    "name": "aliyun-cli",
+    "description": "Universal Command-Line Interface for Alibaba Cloud",
+    "homepage": "https://github.com/aliyun/aliyun-cli",
+    "info": {
+      "installations": 289,
+      "errors": 0
+    }
+  },
+  {
+    "name": "allegro",
+    "description": "C/C++ multimedia library for cross-platform game development",
+    "homepage": "https://liballeg.org/",
+    "info": {
+      "installations": 103,
+      "errors": 0
+    }
+  },
+  {
+    "name": "allure",
+    "description": "Flexible lightweight test report tool",
+    "homepage": "https://github.com/allure-framework/allure2",
+    "info": {
+      "installations": 1411,
+      "errors": 0
+    }
+  },
+  {
+    "name": "allureofthestars",
+    "description": "Near-future Sci-Fi roguelike and tactical squad combat game",
+    "homepage": "https://www.allureofthestars.com/",
+    "info": {
+      "installations": 20,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alluxio",
+    "description": "Open Source Memory Speed Virtual Distributed Storage",
+    "homepage": "https://www.alluxio.io/",
+    "info": {
+      "installations": 12,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alot",
+    "description": "Text mode MUA using notmuch mail",
+    "homepage": "https://github.com/pazz/alot",
+    "info": {
+      "installations": 53,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alp",
+    "description": "Access Log Profiler",
+    "homepage": "https://github.com/tkuchiki/alp",
+    "info": {
+      "installations": 6,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alpine",
+    "description": "News and email agent",
+    "homepage": "https://repo.or.cz/alpine.git",
+    "info": {
+      "installations": 409,
+      "errors": 0
+    }
+  },
+  {
+    "name": "alure",
+    "description": "Manage common tasks with OpenAL applications",
+    "homepage": "https://kcat.strangesoft.net/alure.html",
+    "info": {
+      "installations": 57,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amap",
+    "description": "Perform application protocol detection",
+    "homepage": "https://github.com/vanhauser-thc/THC-Archive",
+    "info": {
+      "installations": 22,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amazon-ecs-cli",
+    "description": "CLI for Amazon ECS to manage clusters and tasks for development",
+    "homepage": "https://aws.amazon.com/ecs",
+    "info": {
+      "installations": 431,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amdatu-bootstrap",
+    "description": "Bootstrapping OSGi development",
+    "homepage": "https://bitbucket.org/amdatuadm/amdatu-bootstrap/",
+    "info": {
+      "installations": 4,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ammonite-repl",
+    "description": "Ammonite is a cleanroom re-implementation of the Scala REPL",
+    "homepage": "https://lihaoyi.github.io/Ammonite/#Ammonite-REPL",
+    "info": {
+      "installations": 1544,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ampl-mp",
+    "description": "The AMPL modeling language solver library",
+    "homepage": "https://www.ampl.com/",
+    "info": {
+      "installations": 33,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amqp-cpp",
+    "description": "C++ library for communicating with a RabbitMQ message broker",
+    "homepage": "https://github.com/CopernicaMarketingSoftware/AMQP-CPP",
+    "info": {
+      "installations": 19,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amtk",
+    "description": "Actions, Menus and Toolbars Kit for GNOME",
+    "homepage": "https://wiki.gnome.org/Projects/Amtk",
+    "info": {
+      "installations": 62,
+      "errors": 0
+    }
+  },
+  {
+    "name": "amtterm",
+    "description": "Serial-over-LAN (sol) client for Intel AMT",
+    "homepage": "https://www.kraxel.org/blog/linux/amtterm/",
+    "info": {
+      "installations": 8,
+      "errors": 0
+    }
+  },
+  {
+    "name": "analog",
+    "description": "Logfile analyzer",
+    "homepage": "https://tracker.debian.org/pkg/analog",
+    "info": {
+      "installations": 10,
+      "errors": 0
+    }
+  },
+  {
+    "name": "angband",
+    "description": "Dungeon exploration game",
+    "homepage": "https://rephial.org/",
+    "info": {
+      "installations": 35,
+      "errors": 0
+    }
+  },
+  {
+    "name": "angle-grinder",
+    "description": "Slice and dice log files on the command-line",
+    "homepage": "https://github.com/rcoh/angle-grinder",
+    "info": {
+      "installations": 33,
+      "errors": 0
+    }
+  },
+  {
+    "name": "angular-cli",
+    "description": "CLI tool for Angular",
+    "homepage": "https://cli.angular.io/",
+    "info": {
+      "installations": 1910,
+      "errors": 0
+    }
+  },
+  {
+    "name": "anime-downloader",
+    "description": "Download your favourite anime",
+    "homepage": "https://github.com/vn-ki/anime-downloader",
+    "info": {
+      "installations": 77,
+      "errors": 0
+    }
+  },
+  {
+    "name": "anjuta",
+    "description": "GNOME Integrated Development Environment",
+    "homepage": "http://anjuta.org",
+    "info": {
+      "installations": 56,
+      "errors": 0
+    }
+  },
+  {
+    "name": "annie",
+    "description": "Fast, simple and clean video downloader",
+    "homepage": "https://github.com/iawia002/annie",
+    "info": {
+      "installations": 475,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansible",
+    "description": "Automate deployment, configuration, and upgrading",
+    "homepage": "https://www.ansible.com/",
+    "info": {
+      "installations": 25179,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansible-cmdb",
+    "description": "Generates static HTML overview page from Ansible facts",
+    "homepage": "https://github.com/fboender/ansible-cmdb",
+    "info": {
+      "installations": 30,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansible-lint",
+    "description": "Checks ansible playbooks for practices and behaviour",
+    "homepage": "https://github.com/ansible/ansible-lint/",
+    "info": {
+      "installations": 1464,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansible@2.8",
+    "description": "Automate deployment, configuration, and upgrading",
+    "homepage": "https://www.ansible.com/",
+    "info": {
+      "installations": 65,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansifilter",
+    "description": "Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode",
+    "homepage": "http://www.andre-simon.de/doku/ansifilter/ansifilter.html",
+    "info": {
+      "installations": 101,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ansiweather",
+    "description": "Weather in your terminal, with ANSI colors and Unicode symbols",
+    "homepage": "https://github.com/fcambus/ansiweather",
+    "info": {
+      "installations": 251,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ant",
+    "description": "Java build tool",
+    "homepage": "https://ant.apache.org/",
+    "info": {
+      "installations": 7837,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ant-contrib",
+    "description": "Collection of tasks for Apache Ant",
+    "homepage": "https://ant-contrib.sourceforge.io/",
+    "info": {
+      "installations": 29,
+      "errors": 0
+    }
+  },
+  {
+    "name": "ant@1.9",
+    "description": "Java build tool",
+    "homepage": "https://ant.apache.org/",
+    "info": {
+      "installations": 105,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antibody",
+    "description": "The fastest shell plugin manager",
+    "homepage": "https://getantibody.github.io/",
+    "info": {
+      "installations": 121,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antigen",
+    "description": "Plugin manager for zsh, inspired by oh-my-zsh and vundle",
+    "homepage": "https://antigen.sharats.me/",
+    "info": {
+      "installations": 783,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antiword",
+    "description": "Utility to read Word (.doc) files",
+    "homepage": "http://www.winfield.demon.nl/",
+    "info": {
+      "installations": 150,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antlr",
+    "description": "ANother Tool for Language Recognition",
+    "homepage": "https://www.antlr.org/",
+    "info": {
+      "installations": 216,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antlr@2",
+    "description": "ANother Tool for Language Recognition",
+    "homepage": "https://www.antlr2.org/",
+    "info": {
+      "installations": 69,
+      "errors": 0
+    }
+  },
+  {
+    "name": "antlr4-cpp-runtime",
+    "description": "ANother Tool for Language Recognition C++ Runtime Library",
+    "homepage": "https://www.antlr.org/",
+    "info": {
+      "installations": 73,
+      "errors": 0
+    }
+  },
+  {
+    "name": "anttweakbar",
+    "description": "C/C++ library for adding GUIs to OpenGL apps",
+    "homepage": "https://anttweakbar.sourceforge.io/",
+    "info": {
+      "installations": 19,
+      "errors": 0
+    }
+  },
+  {
+    "name": "anycable-go",
+    "description": "Anycable Go WebSocket Server",
+    "homepage": "https://github.com/anycable/anycable-go",
+    "info": {
+      "installations": 36,
+      "errors": 0
+    }
+  },
+  {
+    "name": "anyenv",
+    "description": "All in one for **env",
+    "homepage": "https://anyenv.github.io/",
+    "info": {
+      "installations": 716,
+      "errors": 0
+    }
+  }
+]
